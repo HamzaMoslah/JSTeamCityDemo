@@ -5,6 +5,14 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
+  bundles: {
+    "build.js": [
+      "app/app.ts",
+      "app/hello.ts",
+      "github:components/jquery@2.1.4.js",
+      "github:components/jquery@2.1.4/jquery.js"
+    ]
+  },
 
   packages: {
     "app": {
@@ -12,7 +20,7 @@ System.config({
       "defaultExtension": "ts"
     },
     "tests": {
-      defaultExtension: "ts"
+      "defaultExtension": "ts"
     }
   },
 
