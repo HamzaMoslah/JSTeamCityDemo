@@ -5962,7 +5962,7 @@ System.register("app/app.ts", ["github:components/jquery@2.1.4.js", "app/hello.t
                 hello_ts_1 = hello_ts_1_1;
             }],
         execute: function() {
-            hello = new hello_ts_1.default("World!!!!");
+            hello = new hello_ts_1.default("Hamza Moslah!!!");
             jquery_1.default("body").append("greeting: " + hello.greeting());
         }
     }
